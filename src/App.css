@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d9a2e7;
+  color: #333;
+  margin: 0;
+  padding: 2vw;
+  height: 91.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 10px rgba(51, 3, 58, 0.326);
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+  height: 70%;
+  width: 110%;
+  border-radius: 4vw;
+  background-color: #e7bef1;
+}
+
+.App-logo {
+  height: 20vh;
+  margin-top: 3vh;
+}
+
+h2 {
+  color: #9c2092;
+  font-size: 5vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: #b72ba2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  border-radius: 8px;
+  padding: 20px;
+  width: 30vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  border-radius: 1vw 0vw 0vw 1vw;
+  width: 18vw;
+}
+
+.botao-input{
+  padding: 10px;
+  background-color: #c14ae2;
+  border: none;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 0vw 1vw 1vw 0vw;
+}
+
+.botao-input:hover {
+  background-color: #9c2092;
+}
+
+.editar {
+  height: 3vh;
+  width: 2vw;
+}
+
+.apagar {
+  height: 3vh;
+  width: 2vw;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+li {
+  background: #e7b6f9d3;
+  border: 1px solid #d92eff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.botao-apagar {
+  background-color:transparent;
+  border: none;
+}
+
+.botao-editar {
+  background-color:transparent;
+  border: none;
+}
+
+/* --------------------------RESPONSIVO---------------------------- */
+
+@media screen and (max-width: 900px) { 
+  input {
+    border-radius: 1vw 1vw 1vw 1vw;
+  }
+
+  .botao-input{
+    margin-top: 2vh;
+    border-radius: 1vw 1vw 1vw 1vw;
+  }
+
+  .App-logo {
+    height: 15vh;
+  }
+
+  h2 {
+    font-size: 3vh;
+  }
+}
